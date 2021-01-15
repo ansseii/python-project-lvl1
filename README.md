@@ -1,4 +1,4 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Ansseii/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Ansseii/python-project-lvl1/actions)
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
-![example workflow name](https://github.com/Ansseii/python-project-lvl1/workflows/linter-check/badge.svg)
+[![Linter status](https://github.com/Ansseii/python-project-lvl1/workflows/linter-check/badge.svg)](https://github.com/Ansseii/python-project-lvl1/actions?query=workflow%3Alinter-check)
