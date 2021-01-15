@@ -1,10 +1,12 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
+"""Main."""
 
-from brain_games.cli import welcome_user
+from brain_games import cli
 
 
 def main():
-    welcome_user()
+    """Entry point."""
+    cli.welcome_user()
 
 
 if __name__ == '__main__':
