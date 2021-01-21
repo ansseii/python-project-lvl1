@@ -5,14 +5,14 @@ description = ""
 authors = ["Aleksandr Lukash <a.lukash.92@gmail.com>"]
 packages = [
     { include = "brain_games" },
-    ]
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
-wemake-python-styleguide = "^0.14.1"
+flake8 = "^3.8.4"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
@@ -20,3 +20,4 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
