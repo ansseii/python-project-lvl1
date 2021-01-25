@@ -1,10 +1,10 @@
-from random import randint
+import random
 
 game_rules = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def generate_number():
-    return randint(0, 100)
+    return random.randint(0, 100)
 
 
 def is_even(number):
