@@ -34,4 +34,4 @@ def make_question_answer():
             continue
         progression += ' {0}'.format(str(initial_number + index * step))
 
-    return progression, str(correct_answer)
+    return progression[1:], str(correct_answer)
