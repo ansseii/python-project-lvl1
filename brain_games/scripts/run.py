@@ -1,6 +1,10 @@
-from bin.brain_games import engine
+from brain_games import engine
 
-from bin.brain_games.games import prime, calc, even_numbers, gcd, progression
+from brain_games.games import even_numbers
+from brain_games.games import calc
+from brain_games.games import gcd
+from brain_games.games import progression
+from brain_games.games import prime
 
 
 def run_even_numbers():
