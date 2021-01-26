@@ -1,4 +1,4 @@
-from brain_games import cli
+from bin.brain_games import cli
 
 questions_for_win = 3
 
