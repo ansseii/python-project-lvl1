@@ -4,6 +4,7 @@ from brain_games.games import even_numbers
 from brain_games.games import calc
 from brain_games.games import gcd
 from brain_games.games import progression
+from brain_games.games import prime
 
 
 def run_even_numbers():
@@ -20,3 +21,7 @@ def run_gcd():
 
 def run_progression():
     engine.run(progression)
+
+
+def run_prime():
+    engine.run(prime)
